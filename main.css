@@ -1,0 +1,75 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.clearfix{
+	overflow: auto;
+}
+.wrapper{
+	margin: 0 auto;
+	width: 1200px;
+}
+header .logo{
+	color: green;
+	margin-top: 30px;
+	margin-left: 5px;
+	float: left;
+}
+header .logo h1{
+	font-size: 50px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+}
+header .socialmedia{
+	float: 	right
+	;	
+}
+header .socialmedia ul{
+	list-style: none;
+	margin-top: 50px;	
+}
+header .socialmedia ul li{
+	display: inline;
+}
+header .socialmedia ul li a{
+	margin-left: 2px;
+	padding: 6px;
+	background: #444;
+	color: #fff;
+	display: inline-block;
+	border-radius: 20px;
+}
+header .socialmedia ul li a:hover{
+	color: orange;
+}
+.img{
+
+	padding-top: 10px;
+	display: inline-block;
+	width: 1200px;
+	height: 400px;
+}
+nav{
+	margin-top: 20px;
+	background: #000;
+	background: linear-gradient(#0d0d0d, #404040, #0d0d0d);
+	text-align: center;
+	border-radius: 5px;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display: inline;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	margin: 10px 30px 10px 30px;
+	display: inline-block;
+}
+nav ul li a:hover{
+	color: red;
+}
