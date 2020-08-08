@@ -1,0 +1,131 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	text-decoration: none;
+}
+
+.clearfix { overflow: auto; }
+
+.wrapper {
+	margin: 0 auto;
+	width: 1250px;
+}
+
+body {
+	background: #eee;
+}
+
+
+header {
+	margin: 10px 0px 10px 0px;
+}
+
+header .name {
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+header .name h1 {
+	color: rgb(0,100,0);
+	font-size: 48px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+}
+
+div.main-image img {
+	width: 1250px;
+	height: 200px;
+}
+
+div.details {
+	margin-left: 300px;
+	margin-top: 20px;
+	background: #E4FFF9;
+	float: left;
+}
+
+div.details ul {
+	display: inline-flex;
+	list-style: none;
+	font-size: 15px;
+	color: black;
+	
+}
+
+div.details ul li a {
+	color: orange;
+}
+
+div.details ul li {
+	width: 200px;
+	margin: 8px;
+	padding: 5px;
+	text-align: center;
+}
+
+div.details ul li a:hover{
+	text-decoration: none;
+	color: red;
+	border-radius: 3px;
+}
+
+.sub-details {
+	display: none;
+}
+
+.sub-details ul li {
+	width: 200px;
+	margin: 8px;
+	padding: 5px;
+	text-align: left;
+
+}
+
+div.details ul li:hover .sub-details {
+	display: block;
+	position: absolute;
+	background: #E4FFF9;
+}
+
+div.details ul li:hover .sub-details ul {
+	display: block;
+}
+
+div.details ul li:hover .sub-details ul li {
+	width: 200px;
+	padding: 10px;
+	border-radius: 0px;
+}
+
+.sub-details ul li p {
+	padding: 4px 2px 2px 2px;
+	margin-top: 2px;
+	text-align: left;
+	color: maroon;
+}
+
+div.sub-details img {
+	width: 100px;
+	float: left;
+}
+
+div.sub-deatils iframe {
+	width: 100px;
+	float: right;
+}
+
+div.Location iframe {
+	width: 1200px;
+	height: 500px;
+}
+
+div.contact {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	float: left;
+}
