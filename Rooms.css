@@ -1,0 +1,30 @@
+body{
+    background-image: url("background img rooms.jpg");
+}
+h1{
+    text-align: center;
+    color:rgb(112, 12, 112);
+    font-style: oblique;
+}
+div.rooms {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 720px;
+    
+  }
+  
+  div.rooms:hover {
+    border: 1px solid #777;
+  }
+  div.rooms img {
+    width: 100%;
+    height:400px;
+  }
+ 
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: wheat;
+  }
