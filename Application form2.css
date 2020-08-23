@@ -1,0 +1,61 @@
+table{
+      background-color: #324445;
+      color: #c7b214;
+      margin: auto;
+      margin-top: 100px;
+}
+tr.s1up{
+      background-color: Yellow;
+      color: black;
+      padding-left: 100px;
+      text-align: center;     
+}
+body{
+z-index:-1;
+background-size: cover;
+pading-left: center;
+<div class = "slideshow-container">
+var slideIndex = 0;
+showSlides();
+ var myIndex = 0;
+          carousel();
+background-size: cover;
+padding: center;
+          function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+             for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+             }
+               myIndex++;
+             if (myIndex > x.length) {myIndex = 1}    
+               x[myIndex-1].style.display = "block";  
+              setTimeout(carousel, 2000); // Change image every 2 seconds
+             }
+background-image: url("image4.jpg");
+background-size: cover;
+backgrond-position: center;
+}
+@keyframes slide{
+0%{
+background-image: url("image.jpg")
+}
+50%{
+background-image: url("image2.jpg")
+}
+70%{
+background-image: url("image3.jpg")
+}
+100%{
+background-image: url("image4.jpg")
+}
+}
+.tts{
+      background-color: green;
+}
+#tto{
+      background-color: red;
+}  
+.principal{
+      position: absolute;   
+
