@@ -1,0 +1,148 @@
+* { margin: 0; padding: 0; }
+
+* { text-decoration: none; }
+
+.clearfix { overflow: auto; }
+
+.wrapper {
+	margin: 0 auto;
+	width: 1280px;
+}
+
+body{
+	background: rgb(208, 236, 231);
+}
+
+header {
+	margin: 10px 0px 10px 0px;
+}
+
+header .name {
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+header .name h1 {
+	color: rgb(11, 123, 115 );
+	font-size: 48px;
+	font-weight: normal;
+	letter-spacing: -1px;
+	font-variant: small-caps;
+}
+
+header .name p {
+	color: rgb(14, 160, 104);
+}
+
+header .socialmedia {
+	float: right;
+	margin-top: 50px;
+	margin-right: 20px;
+}
+
+header .socialmedia ul {
+	list-style: none;
+}
+
+header .socialmedia ul li {
+	display: inline;
+}
+
+header .socialmedia ul li a {
+	margin-left: 2px;
+	padding: 6px;
+	background: #444;
+	color: #fff;
+	display: inline-block;
+	border-radius: 40px;
+}
+
+header .socialmedia ul li a:hover{
+	color: rgb(255,69,0);
+}
+
+.menu-bar {
+	background: #0B7B73;
+	text-align: center;
+}
+
+.menu-bar ul {
+	display: inline-flex;
+	list-style: none;
+	color: white;
+}
+
+.menu-bar ul li {
+	width: 130px;
+	margin: 5px;
+	padding: 15px;
+}
+
+.menu-bar ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.active, .menu-bar ul li:hover{
+	background: #37C6BC;
+	border-radius: 3px;
+}
+
+.sub-menu {
+	display: none;
+}
+
+.menu-bar ul li:hover .sub-menu {
+	display: block;
+	position: absolute;
+	background: rgb(25, 91, 86);
+	margin-top: 15px;
+	margin-left: -15px;
+}
+
+.menu-bar ul li:hover .sub-menu ul {
+	display: block;
+	margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu ul li {
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+
+.menu-bar ul li:hover .sub-menu ul li :last-child {
+	border-bottom: none;
+}
+
+.menu-bar ul li:hover .sub-menu ul li a:hover {
+	color: #85929E;
+}
+
+.aboutus h2 {
+	font-size: 40px;
+	color: rgb(11, 83, 69);
+	padding: 20px;
+}
+
+.aboutus .main-image img {
+	width: 1280px;
+	padding: 5px 0px 10px 0px;
+}
+
+.aboutus p {
+	padding-top: 20px;
+	font-size: 20px;
+}
+
+.aboutus img {
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	width: 620px;
+	height: 400px;
+}
