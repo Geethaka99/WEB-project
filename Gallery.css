@@ -1,0 +1,78 @@
+body{
+    background-image: url(Photos/images.jfif) ;
+    background-repeat: no-repeat;
+    background-size: 1800px 4000px;
+}
+h1{
+    color: white;
+}
+
+#hotel{
+    text-align: center;
+    background-color: rgb(61, 40, 51);
+    font-size: 40px;
+    color: white;
+    font-style: oblique;
+}
+
+#hotel img:hover{
+    color: red;
+}
+
+#rooms{
+   color: white;
+    text-align: left;
+    width: 300;
+    }
+.Rooms{
+    margin: 10px 50px;
+    width: 300;
+}
+.Rooms img:hover{
+    transform: scale(1.1);
+}
+.Rooms img{
+    transition: 1s;
+    width: 300;
+}
+
+#dining{
+    text-align: left;
+}
+.Dining{
+    margin: 10px 50px;
+}
+.Dining img{
+    transition: 1s;
+
+}
+.Dining img:hover{
+    transform: scale(1.1);
+}
+
+#location{
+    text-align: left;
+}
+.Location{
+    margin: 10px 50px;
+}
+.Location img{
+    transition: 1s;
+
+}
+.Location img:hover{
+    transform:scale(1.1) ;
+
+}
+#functions{
+    text-align: left;
+}
+.Functions{
+    margin: 10px 50px;
+}
+.Functions img{
+    transition: 1s;
+}
+.Functions img:hover{
+    transform: scale(1.1);
+}
